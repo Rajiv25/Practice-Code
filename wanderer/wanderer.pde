@@ -1,4 +1,3 @@
-
 PVector loc,vel,acc;
 int sz=60;
 
@@ -12,7 +11,7 @@ void setup(){
   
 }
 void draw(){
- vel.set(mouseX,mouseY);
+
  vel.normalize();                 
   vel.add(acc);         
   loc.add(vel);       
